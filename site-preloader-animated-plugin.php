@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Site Animated Preloader
+Plugin Name: Site Animated Preloader by RMcC
 Plugin URI: #
 Description: Adds a preloader animation to the website @ rmmc_before_header with priority 5
 Version: 1.0.0

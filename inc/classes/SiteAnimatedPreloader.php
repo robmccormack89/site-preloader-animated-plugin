@@ -20,10 +20,6 @@ class SiteAnimatedPreloader {
       'site-animated-preloader',
       SITE_ANIMATED_PRELOADER_URL . 'public/css/site-animated-preloader.css'
     );
-    
-    // enqueue wp jquery. if necessary?
-    // wp_enqueue_script( 'jquery' );
-    
     wp_enqueue_script(
       'site-animated-preloader',
       SITE_ANIMATED_PRELOADER_URL . 'public/js/site-animated-preloader.js',
