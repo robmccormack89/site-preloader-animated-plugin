@@ -2,7 +2,7 @@
 /*
 Plugin Name: Site Animated Preloader by RMcC
 Plugin URI: #
-Description: Adds a preloader animation to the website @ rmmc_before_header with priority 5
+Description: Adds a preloader animation to the site using the theme location: 'rmmc_before_header'. Priority is set to 5 for this action hook.
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
