@@ -5,10 +5,9 @@ class SiteAnimatedPreloader {
 
   public function __construct() {
     add_action('wp_enqueue_scripts', array($this, 'plugin_enqueue_assets'));
-    
     add_filter('body_class', array($this, 'site_animated_preloader_body_class'));
-    
-    add_action('rmcc_before_header', 'preloader_html', 5);
+    // add_action('rmcc_before_header', 'preloader_html', 5);
+    add_action('wp_body_open', 'preloader_html');
   }
   
   public function site_animated_preloader_body_class($classes) {

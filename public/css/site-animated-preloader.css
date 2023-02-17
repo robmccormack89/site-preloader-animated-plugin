@@ -1,4 +1,4 @@
-.theme-preload::before {
+#sitePreloader::before {
   content: "";
   position: fixed;
   left: 0;
@@ -15,7 +15,7 @@
   animation: spin 1s infinite linear;
   z-index: 5;
 }
-.theme-preload::after {
+#sitePreloader::after {
   content: '';
   position: fixed;
   background-color: #ffffff;
@@ -25,12 +25,12 @@
   height: 100vh;
   z-index: 4;
 }
-.theme-preload {
+#sitePreloader {
   visibility: visible;
   opacity: 1;
   transition: opacity .3s linear;
 }
-.theme-preload.hidden {
+#sitePreloader.hidden {
   visibility: hidden;
   opacity: 0;
   position: absolute;

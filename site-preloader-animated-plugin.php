@@ -2,7 +2,7 @@
 /*
 Plugin Name: Site Animated Preloader by RMcC
 Plugin URI: #
-Description: Adds a preloader animation to the site using the theme location: 'rmcc_before_header'. Priority is set to 5 for this action hook.
+Description: This plugin adds a animated preloader to your site using the wp_body_open hook.
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
